@@ -1,0 +1,38 @@
+/* ANOTAÇÕES RELEVANTES DO CURSO */
+
+/* ITENS CONHECIDO FALADOS: */
+/* ESTILO EM CASCATA */
+/* TRATA DA PARTE DE "ESTILIZA" O SITE */
+
+body {
+    background-color: rgb(201, 240, 243);
+    margin-left: 25px;
+    margin-right: 150px;
+}
+
+h1 {
+    color: red;
+    font-family: fantasy;
+}
+
+h2 {
+    font-family: fantasy;
+}
+
+p {
+    font-size: 18px;
+}
+
+header {
+    margin-top: 30px;
+}
+
+/* CSS usando CLASS */
+.imgPadrao {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+footer {
+    margin-bottom: 30px;
+}
