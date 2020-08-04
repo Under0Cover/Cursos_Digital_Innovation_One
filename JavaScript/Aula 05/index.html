@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <title>Minha página</title>
+</head>
+<body onload="load()">
+    <h1>Minha Página</h1>
+    <button type="button" onclick="botao()">Clique aqui</button>
+    <p id="agradecimento" onclick="redirecionar()"></p>
+    <p id="mouse" onmouseover="trocar()">Passe o mouse aqui</p>
+    <br>
+    <br>
+    <p id="mudarTexto" onmouseover="texto(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+    <p id="mudarTextoNovo" onmouseover="texto(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+    <br>
+    <br>
+    <select name="seletores" id="selecao" funcaoChange(this)>
+        <option value="1">Valor 01</option>
+        <option value="2">Valor 02</option>
+        <option value="3">Valor 03</option>
+    </select>
+</body>
+</html>
