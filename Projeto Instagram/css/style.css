@@ -1,0 +1,26 @@
+* {padding: 0; margin: 0; box-sizing: border-box; text-decoration: none; font-family: sans-serif; font-size: 14px;}
+body {width: 100%; min-height: 100vh; background-color: rgb(243, 243, 243); margin: 0; padding: 0; display: flex; justify-content: center;}
+.instagram-conteudo {display: flex; align-items: center; justify-content: start; width: 60%; height: 100vh;}
+.instagram-celular {display: flex; align-items: center; justify-content: center; width: 50%;}
+.instagram-celular img {height: 40rem;}
+.instagram-continue {display: flex; align-items: center; /* POSICIONADO NA HORIZONTAL */ justify-content: space-around; /*POSICIONADO NA VERTICAL */ flex-direction: column; widows: 50%; min-height: 34rem;}
+.grupo {display: flex; justify-content: space-between; align-items: center; flex-direction: column; background-color: #ffffff; width: 100%;padding: 1.5rem 0; border: 1px solid lightgray; margin-bottom: 1rem;}
+.grupo:nth-child(1){min-height: 25rem; min-width: 25rem;}
+.instagram-logo {height: 3rem;}
+.foto-perfil {display: flex; justify-content: center; align-items: center; border-radius: 50%; overflow: hidden;}
+.foto-perfil img {height: 12rem;}
+.instagram-login {background-color: #0095f6; color: #ffffff; padding: 8px; border-radius: 4px;}
+.instagram-logout {color: #0095f6; margin-top: 1rem;}
+.outra-conta {color: rgb(160, 160, 160);}
+.link-azul {color: #0095f6;}
+.consiga-o-app {display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; padding: 1.3rem 0;}
+.dowload {display: flex; width: 100%; justify-content: space-evenly; align-items: center; padding: 1rem;}
+.baixar {margin-top: 10px;}
+.baixar-app img {width: 100px;}
+/* RESPONSIVIDADE */
+@media (max-width: 1100px) {
+    .instagram-conteudo {width: 90%;} }
+@media (max-width: 780px) {
+    .instagram-conteudo {width: 80%}
+    .instagram-celular {display: none;}
+    .instagram-continue {width: 100%;}}
