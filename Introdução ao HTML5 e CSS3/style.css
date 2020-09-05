@@ -1,0 +1,11 @@
+body {background-color: #f7f7f7; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; max-width: 900px; margin: auto;}
+h1 {font-size: 20px; text-transform: uppercase;}
+a {text-decoration: none; color: #748c9c;}
+a:hover {text-decoration: underline;}
+#titulo, .subtitulo, .tituloPostagem {color: #505050;}
+.imagemCabecalho {border: 2px solid #000000; border-radius: 50%; width: 350px; background-color: #000000; margin-top: 25px;}
+.tituloPostagem {font-size: 16px; font-style: italic; margin: 0; margin-bottom: 15px;}
+.postagens {background-color: #ffffff; padding: 10px; border: 3px solid #000000; margin-bottom: 15px; border-radius: 15px; text-align: justify;}
+.postagens p {margin: 0; margin-bottom: 15px;}
+.postagens img {margin-bottom: 15px; width: 100%;}
+.lista {list-style-type: none; padding-left: 15px;} 
