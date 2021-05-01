@@ -17,7 +17,7 @@ const FooterItem = styled.span `
     align-items: center;
     display: flex;
     color: #000;
-    font-weight: bold
+    font-weight: bold;
 `
 
 export default function footer() {
