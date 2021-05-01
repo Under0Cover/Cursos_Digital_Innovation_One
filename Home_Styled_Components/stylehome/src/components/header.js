@@ -11,12 +11,13 @@ const Nav = styled.p `
     align-items: center;
 `
 
-const Item = styled.span `
+const Item = styled.a `
     font-size: 14px;
     font-family: 'Read';
     font-weight: bold;
     color: #fff;
-    margin: 0 20px;
+    padding: 50px;
+    box-sizing: border-box;
 `
 
 export default function header() {
